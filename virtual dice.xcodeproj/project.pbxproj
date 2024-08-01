@@ -11,11 +11,11 @@
 		F425FBC02C5B987600568555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425FBBF2C5B987600568555 /* SceneDelegate.swift */; };
 		F425FBC22C5B987600568555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425FBC12C5B987600568555 /* ViewController.swift */; };
 		F425FBC52C5B987600568555 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F425FBC42C5B987600568555 /* Base */; };
-		F425FBC72C5B987700568555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F425FBC62C5B987700568555 /* Assets.xcassets */; };
 		F425FBCA2C5B987700568555 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F425FBC92C5B987700568555 /* Base */; };
 		F425FBD52C5B987700568555 /* virtual_diceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425FBD42C5B987700568555 /* virtual_diceTests.swift */; };
 		F425FBDF2C5B987700568555 /* virtual_diceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425FBDE2C5B987700568555 /* virtual_diceUITests.swift */; };
 		F425FBE12C5B987700568555 /* virtual_diceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F425FBE02C5B987700568555 /* virtual_diceUITestsLaunchTests.swift */; };
+		F425FBEE2C5B98BB00568555 /* Assets copy.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F425FBED2C5B98BB00568555 /* Assets copy.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		F425FBBF2C5B987600568555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F425FBC12C5B987600568555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F425FBC42C5B987600568555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F425FBC62C5B987700568555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F425FBC92C5B987700568555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F425FBCB2C5B987700568555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F425FBD02C5B987700568555 /* virtual diceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "virtual diceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		F425FBDA2C5B987700568555 /* virtual diceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "virtual diceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F425FBDE2C5B987700568555 /* virtual_diceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_diceUITests.swift; sourceTree = "<group>"; };
 		F425FBE02C5B987700568555 /* virtual_diceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virtual_diceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F425FBED2C5B98BB00568555 /* Assets copy.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets copy.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,11 @@
 		F425FBBC2C5B987600568555 /* virtual dice */ = {
 			isa = PBXGroup;
 			children = (
+				F425FBED2C5B98BB00568555 /* Assets copy.xcassets */,
 				F425FBBD2C5B987600568555 /* AppDelegate.swift */,
 				F425FBBF2C5B987600568555 /* SceneDelegate.swift */,
 				F425FBC12C5B987600568555 /* ViewController.swift */,
 				F425FBC32C5B987600568555 /* Main.storyboard */,
-				F425FBC62C5B987700568555 /* Assets.xcassets */,
 				F425FBC82C5B987700568555 /* LaunchScreen.storyboard */,
 				F425FBCB2C5B987700568555 /* Info.plist */,
 			);
@@ -231,8 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F425FBC72C5B987700568555 /* Assets.xcassets in Resources */,
 				F425FBCA2C5B987700568555 /* Base in Resources */,
+				F425FBEE2C5B98BB00568555 /* Assets copy.xcassets in Resources */,
 				F425FBC52C5B987600568555 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
